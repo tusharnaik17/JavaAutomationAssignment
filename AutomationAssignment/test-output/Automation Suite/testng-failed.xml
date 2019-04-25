@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [Automation Suite]" parallel="tests">
+  <listeners>
+    <listener class-name="com.assignment.util.LoggingListener"/>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test thread-count="1" name="chrome(failed)" parallel="tests">
+    <parameter name="testName" value="chrome"/>
+    <groups>
+      <run>
+        <include name="AddQuestions"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.assignment.tests.AddQuestions">
+        <methods>
+          <include name="verifyEditTitle"/>
+          <include name="testSetupForAddingQuestions"/>
+          <include name="testTearDown"/>
+        </methods>
+      </class> <!-- com.assignment.tests.AddQuestions -->
+    </classes>
+  </test> <!-- chrome(failed) -->
+</suite> <!-- Failed suite [Automation Suite] -->

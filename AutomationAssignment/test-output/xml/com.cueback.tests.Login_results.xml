@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="chrome"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="28.833">
+  <properties />
+  
+  
+            <testcase name="verifyLogin" time="28.833" classname="com.cueback.tests.Login" />
+      
+</testsuite>

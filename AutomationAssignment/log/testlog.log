@@ -1,0 +1,77 @@
+2019-04-25 12:57:34 INFO  DriverScript:35 - Env : qa
+2019-04-25 12:57:34 INFO  DriverScript:36 - Browser :chrome
+2019-04-25 12:57:34 INFO  DriverScript:37 - TestSuite : AddQuestions
+2019-04-25 12:57:34 INFO  DriverScript:104 - Generated programmedTestNG.xml file: D:\ProjectWorkspace\AutomationAssignment\programmedTestNG.xml
+2019-04-25 12:57:36 INFO  CommonUtils:101 - empty D:\ProjectWorkspace\AutomationAssignment\screenshots directory
+2019-04-25 12:57:36 INFO  CommonUtils:101 - empty D:\ProjectWorkspace\AutomationAssignment\allure-results directory
+2019-04-25 12:57:36 INFO  Prop:32 - Loaded D:\ProjectWorkspace\AutomationAssignment\src\main\resources\properties\config.properties file
+2019-04-25 12:57:36 INFO  Prop:32 - Loaded D:\ProjectWorkspace\AutomationAssignment\src\main\resources\properties\testData.properties file
+2019-04-25 12:57:36 INFO  SetupToAddQuestions:23 - 
+
+2019-04-25 12:57:36 INFO  SetupToAddQuestions:24 - **********************************************
+2019-04-25 12:57:55 INFO  Driver:29 - Initialized Chrome driver
+2019-04-25 12:58:12 INFO  LoginPage:39 - Login process..
+2019-04-25 12:58:25 INFO  LoginPage:42 - Email Entered.
+2019-04-25 12:58:25 INFO  LoginPage:44 - Password Entered.
+2019-04-25 12:58:43 INFO  LoginPage:46 - Login Successfully.
+2019-04-25 12:58:43 INFO  SeleniumUtils:169 - Waiting for element to be visible....
+2019-04-25 12:58:57 INFO  CreateSurveyPage:40 - Create Survey Link clicked.
+2019-04-25 12:58:57 INFO  SeleniumUtils:130 - Waiting for element to be visible....
+2019-04-25 12:58:57 INFO  SeleniumUtils:133 - Element found
+2019-04-25 12:58:57 INFO  CreateSurveyPage:48 - Title Entered.
+2019-04-25 12:58:57 INFO  SeleniumUtils:169 - Waiting for element to be visible....
+2019-04-25 12:59:18 INFO  CreateSurveyPage:60 - Survey Created Successfully.
+2019-04-25 12:59:18 INFO  Driver:20 - Test Case Name: verifyEditTitle
+2019-04-25 12:59:18 INFO  Driver:21 - Started Execution for >>> verifyEditTitle from class com.assignment.tests.AddQuestions with Thread ID - 13 with Thread Name - TestNG-tests-1 with Thread Group - org.codehaus.mojo.exec.ExecJavaMojo$IsolatedThreadGroup[name=com.assignment.setup.DriverScript,maxpri=10]
+2019-04-25 12:59:18 INFO  SeleniumUtils:130 - Waiting for element to be visible....
+2019-04-25 12:59:18 INFO  SeleniumUtils:133 - Element found
+2019-04-25 12:59:19 INFO  SurveyOperationPage:71 - Title saved after edit.
+2019-04-25 12:59:19 INFO  SeleniumUtils:130 - Waiting for element to be visible....
+2019-04-25 12:59:19 INFO  SeleniumUtils:133 - Element found
+2019-04-25 12:59:19 INFO  SeleniumUtils:130 - Waiting for element to be visible....
+2019-04-25 12:59:19 INFO  SeleniumUtils:133 - Element found
+2019-04-25 12:59:19 INFO  SurveyOperationPage:97 - Clicked on Survey Category
+2019-04-25 12:59:19 INFO  SurveyOperationPage:99 - Select category
+2019-04-25 12:59:21 INFO  SeleniumUtils:44 - Driver>>>>>> ChromeDriver: chrome on XP (234ac979dd804d39735e538f8522e6fb)
+2019-04-25 12:59:22 INFO  SeleniumUtils:53 - : => Please refer D:\ProjectWorkspace\AutomationAssignment\screenshots\verifyEditTitle_25_Apr_2019_12-59-22_PM(IST).png
+2019-04-25 12:59:22 INFO  SeleniumUtils:60 - File path for screenshotD:\ProjectWorkspace\AutomationAssignment\screenshots\verifyEditTitle_25_Apr_2019_12-59-22_PM(IST).png
+2019-04-25 12:59:23 INFO  Driver:40 - org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=73.0.3683.20 (8e2b610813e167eee3619ac4ce6e42e3ec622017),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IB-PUNE-PC-077', ip: '192.168.2.120', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 73.0.3683.20 (8e2b610813e16..., userDataDir: C:\Users\TUSHAR~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:59611}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: 234ac979dd804d39735e538f8522e6fb
+2019-04-25 12:59:23 INFO  Driver:41 - FAILED: verifyEditTitle
+2019-04-25 12:59:23 INFO  Driver:20 - Test Case Name: verifyEditPageTitle
+2019-04-25 12:59:23 INFO  Driver:21 - Started Execution for >>> verifyEditPageTitle from class com.assignment.tests.AddQuestions with Thread ID - 13 with Thread Name - TestNG-tests-1 with Thread Group - org.codehaus.mojo.exec.ExecJavaMojo$IsolatedThreadGroup[name=com.assignment.setup.DriverScript,maxpri=10]
+2019-04-25 12:59:23 INFO  SeleniumUtils:130 - Waiting for element to be visible....
+2019-04-25 12:59:23 INFO  SeleniumUtils:133 - Element found
+2019-04-25 12:59:23 INFO  SeleniumUtils:130 - Waiting for element to be visible....
+2019-04-25 12:59:23 INFO  SeleniumUtils:133 - Element found
+2019-04-25 12:59:23 INFO  SurveyOperationPage:77 - Clicke on Page title.
+2019-04-25 12:59:24 INFO  SurveyOperationPage:80 - Page Title edit.
+2019-04-25 12:59:24 INFO  Driver:32 - PASSED: verifyEditPageTitle
+2019-04-25 12:59:24 INFO  Driver:20 - Test Case Name: verifyAddPageLogic
+2019-04-25 12:59:24 INFO  Driver:21 - Started Execution for >>> verifyAddPageLogic from class com.assignment.tests.AddQuestions with Thread ID - 13 with Thread Name - TestNG-tests-1 with Thread Group - org.codehaus.mojo.exec.ExecJavaMojo$IsolatedThreadGroup[name=com.assignment.setup.DriverScript,maxpri=10]
+2019-04-25 12:59:24 INFO  SeleniumUtils:130 - Waiting for element to be visible....
+2019-04-25 12:59:24 INFO  SeleniumUtils:133 - Element found
+2019-04-25 12:59:24 INFO  SurveyOperationPage:86 - Clicked on page logic link.
+2019-04-25 12:59:24 INFO  SeleniumUtils:130 - Waiting for element to be visible....
+2019-04-25 12:59:24 INFO  SeleniumUtils:133 - Element found
+2019-04-25 12:59:24 INFO  SeleniumUtils:169 - Waiting for element to be visible....
+2019-04-25 12:59:26 INFO  SurveyOperationPage:91 - Page logic changes applied.
+2019-04-25 12:59:26 INFO  Driver:32 - PASSED: verifyAddPageLogic
+2019-04-25 12:59:26 INFO  Driver:20 - Test Case Name: addQuestion1
+2019-04-25 12:59:26 INFO  Driver:21 - Started Execution for >>> addQuestion1 from class com.assignment.tests.AddQuestions with Thread ID - 13 with Thread Name - TestNG-tests-1 with Thread Group - org.codehaus.mojo.exec.ExecJavaMojo$IsolatedThreadGroup[name=com.assignment.setup.DriverScript,maxpri=10]
+2019-04-25 12:59:26 INFO  SeleniumUtils:130 - Waiting for element to be visible....
+2019-04-25 12:59:28 INFO  SeleniumUtils:133 - Element found
+2019-04-25 12:59:28 INFO  SeleniumUtils:130 - Waiting for element to be visible....
+2019-04-25 12:59:28 INFO  SeleniumUtils:133 - Element found
+2019-04-25 12:59:28 INFO  SurveyOperationPage:117 - Add an save question.
+2019-04-25 12:59:28 INFO  Driver:32 - PASSED: addQuestion1
+2019-04-25 12:59:28 INFO  SetupToAddQuestions:49 - Closed browser
+2019-04-25 12:59:29 INFO  Setup:62 - Closed browser

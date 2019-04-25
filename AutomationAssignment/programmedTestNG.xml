@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Automation Suite" parallel="tests">
+  <listeners>
+    <listener class-name="com.assignment.util.LoggingListener"/>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test thread-count="1" name="chrome" parallel="tests">
+    <parameter name="testName" value="chrome"/>
+    <groups>
+      <run>
+        <include name="AddQuestions"/>
+      </run>
+    </groups>
+    <packages>
+      <package name="com.assignment.tests"/>
+    </packages>
+  </test> <!-- chrome -->
+    <test thread-count="1" name="chrome" parallel="tests">
+    <parameter name="testName" value="chrome"/>
+    <groups>
+      <run>
+        <include name="AddQuestions"/>
+      </run>
+    </groups>
+    <packages>
+      <package name="com.assignment.tests"/>
+    </packages>
+  </test> <!-- chrome -->
+</suite> <!-- Automation Suite -->
